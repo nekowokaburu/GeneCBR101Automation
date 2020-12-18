@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms.Client.OperationsPage">
+             <!--xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"-->
+    <ContentPage.Content>
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#663311">
+
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center" >
+      </StackLayout>
+      
+      
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+      </StackLayout>
+
+      <Label x:Name="stateLabel" Text="Idle." Style="{StaticResource defaultLabelStyle}" />
+      <Label x:Name="timeLabel" Text="0" Style="{StaticResource defaultLabelStyle}" />
+      <Label x:Name="currTempLabel" Text="0" Style="{StaticResource defaultLabelStyle}" />
+      
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+        <Button x:Name="StartResume" Text="Start" Clicked="StartResume_Clicked" Style="{StaticResource defaultButtonStyle}" />
+        <Button x:Name="StopReturn" Text="Stop" Clicked="StopReturn_Clicked" Style="{StaticResource defaultButtonStyle}" />
+        <Button x:Name="ContinueBtn" IsVisible="False" Text="Continue" Clicked="Continue_Clicked" Style="{StaticResource defaultButtonStyle}" />
+        <Button x:Name="CoolBtn" Text="Cool" Clicked="Cool_Clicked" Style="{StaticResource defaultButtonStyle}" />
+      </StackLayout>
+      <Slider Maximum="250" Minimum="150" ValueChanged="OnSliderValueChanged"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+      <Button Text="Pick a File" Clicked="OpenFile_Clicked" HorizontalOptions="FillAndExpand" Style="{StaticResource defaultButtonStyle}" />
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" >
+        <Label Text="Use roast file? " x:Name="lblCheckBox" Style="{StaticResource defaultLabelStyle}" />
+        <CheckBox x:Name="useFileCheckBox" IsChecked="false" CheckedChanged="OnUseFileCheckBoxCheckedChanged" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+      </StackLayout>
+
+      <Label x:Name="lbl" Style="{StaticResource defaultLabelStyle}" />
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+      </StackLayout>
+      <!--<oxy:PlotView x:Name="chart"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />-->
+      
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

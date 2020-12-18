@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeneRev4App.App">
+
+  <Application.Resources>
+    <ResourceDictionary>
+      <Style x:Key="defaultButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="BorderColor" Value="Black" />
+        <Setter Property="BorderRadius" Value="1" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BackgroundColor" Value="SandyBrown" />
+        <Setter Property="TextColor" Value="#663311" />
+        <Setter Property="FontFamily" Value="FontPacifico" />
+      </Style>
+
+      <Style x:Key="defaultLabelStyle" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="TextColor" Value="FloralWhite" />
+        <Setter Property="FontSize" Value="25" />
+        <Setter Property="FontFamily" Value="FontPacifico" />
+      </Style>
+      
+      <Style x:Key="titleStyle" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="TextColor" Value="#f40328" />
+        <Setter Property="FontSize" Value="35" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontFamily" Value="FontPacifico" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinForms.Client"
+             x:Class="XamarinForms.Client.MainPage">
+  <StackLayout BackgroundColor="LightGray">
+    <Label Text="Connect to Server" Style="{StaticResource titleStyle}" />
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+      <Entry  x:Name="IPAddress"  Text="192.168.178.182" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+      <Label Text=":" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+      <Entry  x:Name="Port"       Text="5333"           VerticalOptions="End"  HorizontalOptions="CenterAndExpand" />
+    </StackLayout>
+    <Button x:Name="Connect"    Text="Connect" Clicked="Connect_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="LightBlue"  Style="{StaticResource defaultButtonStyle}" />
+    <Button x:Name="About"      Text="About"   Clicked="About_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="LightBlue"  Style="{StaticResource defaultButtonStyle}" />
+  </StackLayout>
+</ContentPage>
