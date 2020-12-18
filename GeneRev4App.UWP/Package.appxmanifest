@@ -8,7 +8,7 @@
 
   <Identity
     Name="5c6807f8-41a1-4957-925f-5bcf9d94ca75"
-    Publisher="CN=495ae1e4-e604-42ac-8c20-f70f537e222f"
+    Publisher="CN=NVAppProjects"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>

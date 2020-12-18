@@ -2,3 +2,5 @@
 Images
 *.html
 .vs
+obj
+bin
