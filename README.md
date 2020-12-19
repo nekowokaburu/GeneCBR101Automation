@@ -20,6 +20,10 @@ dealing with electricity and heat. This document makes no claim for correctness 
 This is a mod which I am currently using with my Gene CBR 101 home coffee roaster. It consists of a new harware build, which connects to your home wifi network. The roaster can then be connected to using any app and platform you like for a better roasting experience. You can use and adapt this repo as you want for use with different roaster etc. Contibutions or donations are greatly appreciated.
 If you are confident in your modding skills but do not have the time to get the code to build (there is some setup to be done) you can write me. I may have some pre-programmed PCBs left which I could sent to you.
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=1ynHtYo9W6A"><img src="https://img.youtube.com/vi/1ynHtYo9W6A/0.jpg" alt="Rough function overview"></a>
+</div>
+
 ### Downloads ###
 TODO: Add binaries here.
 
