@@ -25,7 +25,8 @@ If you are confident in your modding skills but do not have the time to get the 
 </div>
 
 ### Downloads ###
-TODO: Add binaries here.
+[Android app on Google Play](https://play.google.com/store/apps/details?id=com.companyname.GeneRev4)
+TODO: Add more binaries here.
 
 ### How the apps work ###
 The microcontoller controls the roaster hardware using basic commands received on the serial port over tcp. Current commands are:
