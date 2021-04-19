@@ -46,7 +46,7 @@ With this mod applied you can connect your roaster wirelessly to your PC running
 ### New roast hardware ###
 You will need to modify your roaster a bit. To help with this step, a new PCB is available which will allow you to keep the original connectors. Only a new K-Type thermocouple will be needed for measuring the air temperature using a MAX31855. Hints on the hardware setup are in the [old version](https://github.com/nekowokaburu/GeneCBR101Automation/tree/master/doc)) of this mod. Also check the [STM32 source file](https://github.com/nekowokaburu/GeneCBR101Automation/blob/master/GeneRev4_STM32/GeneRev4_STM32.ino) for used hardware and the connection setup/routing if you want to build the PCB yourself or make adaptions.
 
-TODO: Add link to PCB
+![PCB](https://github.com/nekowokaburu/GeneCBR101Automation/blob/master/GeneRev4_PCB/pcb_2d_rendering.png?raw=true)
 
 ### TCP setup ###
 For the TCP communication to work, I used an ESP8266 as ESP-01S module. This setup is currently not included in this repo. You can choose your prefered communication. My current version just connects to your local wifi, allows for a connection of multiple clients and forwards all serial commanication from the microprocessor to all connected clients and vice versa. [Here is a good general explanation and code example (See TCP Server)](http://stefanfrings.de/esp8266/)
